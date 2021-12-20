@@ -1,0 +1,2 @@
+doctrine:
+    dbal: { connections: { default: { host: 127.0.0.1, port: '3306', user: bn_pimcore, password: 22e4e16ef2ec91635d443054b3068f5814aaa461d7bd429874bde79f9d7d954a, dbname: bitnami_pimcore, mapping_types: { enum: string, bit: boolean }, server_version: 5.5.5-10.3.32-MariaDB } } }

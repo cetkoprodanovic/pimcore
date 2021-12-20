@@ -1,0 +1,25 @@
+{
+  "name": "pimcore/payment-provider-unzer",
+  "license": "GPL-3.0+",
+  "type": "pimcore-bundle",
+  "description": "Pimcore Payment Provider - Unzer (Heidelpay)",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "unzerdev/php-sdk": "^1.1.3.0",
+    "pimcore/pimcore": "^10.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pimcore\\Bundle\\EcommerceFrameworkBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Pimcore\\Bundle\\EcommerceFrameworkBundle\\PimcorePaymentProviderUnzerBundle"
+      ]
+    }
+  }
+}
